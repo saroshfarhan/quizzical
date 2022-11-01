@@ -14,8 +14,9 @@ export default function Questions(){
                     <p>{data.correct_answer}</p>
                     <p>{data.incorrect_answers[1]}</p>
                 </div>
+                <hr/>
             </div>
-        
+            
         )
 
     })
@@ -25,7 +26,6 @@ export default function Questions(){
     return (
         <>
             {renderQuestions}
-            <br/>
         </>
         
     )

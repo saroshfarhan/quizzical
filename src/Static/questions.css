@@ -10,3 +10,8 @@
     align-items: center;
     gap: 3rem;
 }
+
+hr{
+    border-top: 1.5px solid #DBDEF0;
+    border-bottom: none;
+}
