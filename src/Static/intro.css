@@ -1,0 +1,31 @@
+.intro{
+    display: flex;
+    justify-content: center;
+}
+
+.main-comp{
+    margin-top: 25vh;
+}
+
+.main-comp > h1{
+   color:  #293264;
+   font-family: 'Karla', sans-serif;
+   font-weight: 700;
+   font-size: 6rem;
+}
+
+.main-comp > button{
+    margin-left: 8vw;
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F7FB;
+    border: none;
+    cursor: pointer;
+}

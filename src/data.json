@@ -1,0 +1,125 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which anime heavily features music from the genre &quot;Eurobeat&quot;?",
+      "correct_answer": "Initial D",
+      "incorrect_answers": [
+        "Wangan Midnight",
+        "Kino no Tabi",
+        "Cowboy Bebop"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+      "correct_answer": "Elric",
+      "incorrect_answers": [
+        "Ellis",
+        "Eliek",
+        "Elwood"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;Inuyasha&quot;, what are the heros are looking to collect?",
+      "correct_answer": "Jewel Shards",
+      "incorrect_answers": [
+        "Dragon Balls",
+        "Rave Stones",
+        "Sacred Stones"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The name of Junko Enoshima&#039;s imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
+      "correct_answer": "Mukuro Ikusaba",
+      "incorrect_answers": [
+        "Ryota Mitarai",
+        "Ultimate Imposter",
+        "Komaru Naegi"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the anime Seven Deadly Sins what is the name of one of the sins?",
+      "correct_answer": "Diane",
+      "incorrect_answers": [
+        "Sakura",
+        "Ayano",
+        "Sheska"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;The Melancholy of Haruhi Suzumiya&quot; series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.",
+      "correct_answer": "God",
+      "incorrect_answers": [
+        "Alien",
+        "Time Traveler",
+        "Esper"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In &quot;A Certain Scientific Railgun&quot;, how many &quot;sisters&quot; did Accelerator have to kill to achieve the rumored level 6?",
+      "correct_answer": "20,000",
+      "incorrect_answers": [
+        "128",
+        "10,000",
+        "5,000"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What caused the titular mascot of Yo-Kai Watch, Jibanyan, to become a yokai?",
+      "correct_answer": "Being run over by a truck",
+      "incorrect_answers": [
+        "Ate one too many chocobars",
+        "Through a magical ritual",
+        "When he put on the harmaki"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What animation studio produced &quot;Gurren Lagann&quot;?",
+      "correct_answer": "Gainax",
+      "incorrect_answers": [
+        "Kyoto Animation",
+        "Pierrot",
+        "A-1 Pictures"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Pok&eacute;mon and it&#039;s evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+      "correct_answer": "The Porygon Line",
+      "incorrect_answers": [
+        "The Pikachu Line",
+        "The Elekid Line",
+        "The Magby Line"
+      ]
+    }
+  ]
+}

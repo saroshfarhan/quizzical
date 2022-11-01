@@ -1,0 +1,23 @@
+
+.navbar{
+    padding: 0 2rem;
+    background-color: azure;
+    
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 10rem;
+}
+
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: .6rem;
+}
+
+.nav-name{
+    color: royalblue;
+}

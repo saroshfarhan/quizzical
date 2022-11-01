@@ -1,0 +1,12 @@
+.question{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    color: #293264;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
