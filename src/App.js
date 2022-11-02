@@ -20,7 +20,7 @@ function App() {
 
 
   return (
-    <body>
+    <div className='main'>
       { !start ? <Intro handleClick={handleStartClick} /> : 
         <>
           <Navbar clickReset={clickReset}/>
@@ -30,7 +30,7 @@ function App() {
         </>
       }
       
-    </body>
+    </div>
    
   );
 }

@@ -1,7 +1,6 @@
 .question{
     font-family: 'Karla';
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     color: #293264;
 }
 
@@ -9,9 +8,42 @@
     display: flex;
     align-items: center;
     gap: 3rem;
+    justify-content: space-between;
+}
+
+.option-text{
+    border: 1px solid #4D5B9E;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #293264;
+    font-weight: 600;
+    font-family: 'Inter';
+    text-align: center;
+    width: 10rem;
 }
 
 hr{
     border-top: 1.5px solid #DBDEF0;
     border-bottom: none;
+}
+
+.button-div{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.check-answer-button{
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F7FB;
+    border: none;
+    cursor: pointer;
+    align-items: center;
 }
