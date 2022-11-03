@@ -12,7 +12,7 @@
 }
 
 .option-text{
-    border: 1px solid #4D5B9E;
+    border: 1.5px solid #4D5B9E;
     border-radius: 1rem;
     padding: 1rem;
     color: #293264;
@@ -20,6 +20,19 @@
     font-family: 'Inter';
     text-align: center;
     width: 10rem;
+    cursor: pointer;
+}
+
+.option-text-selected{
+    background-color: #D6DBF5;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #293264;
+    font-weight: 600;
+    font-family: 'Inter';
+    text-align: center;
+    width: 10rem;
+    cursor: pointer;
 }
 
 hr{
@@ -30,6 +43,7 @@ hr{
 .button-div{
     display: flex;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     justify-content: center;
 }
 

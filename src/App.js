@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Components/navbar';
 import Questions from './Components/questions';
 import Intro from './Components/intro';
+import quizData from './data.json'
 
 
 
@@ -18,6 +19,10 @@ function App() {
     setStart(prevstate => !prevstate)
   }
 
+  const renderQuestions = quizData.results.map((data, index) => 
+    <Questions key={index} data={data} />
+  )
+
 
   return (
     <div className='main'>
@@ -25,7 +30,10 @@ function App() {
         <>
           <Navbar clickReset={clickReset}/>
             <main className='container'>
-              <Questions />
+              {renderQuestions}
+              <div className='button-div'>
+                <button type='button' className='check-answer-button'>Check answers</button>
+              </div>
             </main>
         </>
       }
