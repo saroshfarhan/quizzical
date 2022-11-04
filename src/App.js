@@ -1,15 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Navbar from './Components/navbar';
 import Questions from './Components/questions';
 import Intro from './Components/intro';
-import quizData from './data.json'
 
 
 
 function App() {
 
   const [start, setStart] = useState(false)
+  const [questions, setQuestions] = useState([])
+  
+  const correctAnswer = []
+
+  useEffect(() => {
+      fetch('https://opentdb.com/api.php?amount=5&category=31&difficulty=easy&type=multiple')
+        .then(res => res.json())
+        .then(quizData => { setQuestions(quizData.results)})
+  },[start])
 
   function handleStartClick(){
     setStart(true)
@@ -19,8 +27,13 @@ function App() {
     setStart(prevstate => !prevstate)
   }
 
-  const renderQuestions = quizData.results.map((data, index) => 
-    <Questions key={index} data={data} />
+  function handleOptionClick(value, index){
+    console.log(value)
+    console.log(index)
+  }
+
+  const renderQuestions = questions.map((data, index) => 
+    <Questions key={index} data={data} onOptionClick={handleOptionClick} correctAns={correctAnswer.push(data.correct_answer)} />
   )
 
 
