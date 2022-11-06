@@ -6,3 +6,11 @@
   padding: 0 6rem;
   margin: 0 6rem;
 }
+
+.score-text{
+  font-family: 'Inter';
+  font-size: larger;
+  font-weight: 700;
+  margin-right: 2rem;
+  color: #293264;
+}

@@ -1,13 +1,16 @@
 
 .navbar{
     padding: 0 2rem;
-    background-color: azure;
+    background-color: #D6DBF5;
+    display: flex;
+    justify-content: center;
     
 }
 
 .logo-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
     width: 10rem;
 }
@@ -19,5 +22,5 @@
 }
 
 .nav-name{
-    color: royalblue;
+    color: #293264;
 }
